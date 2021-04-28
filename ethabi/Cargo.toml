@@ -15,7 +15,7 @@ serde_derive = { version = "1.0", optional = true }
 tiny-keccak = { version = "1.4", features = ["keccak"]}
 #error-chain = { version = "0.12", default-features = false, optional = true }
 ethereum-types = { git = "https://github.com/new-mvs/parity-common.git", default-features = false }
-rstd = { package = "sp-std", git = "https://github.com/new-mvs/substrate.git", branch="latest" default-features = false }
+rstd = { package = "sp-std", git = "https://github.com/new-mvs/substrate.git", branch="latest", default-features = false }
 
 
 [dev-dependencies]
